@@ -34,7 +34,13 @@ const Header = () => {
       <MenuItem onClick={handleMenuClose} component={Link} to="/TV_Channels">
         TV Channel List
       </MenuItem>
-      <MenuItem onClick={handleMenuClose} component={Link} to="/Chinese_Menu">
+      <MenuItem
+        onClick={(e) => {
+          e.preventDefault();
+          handleMenuClose();
+          window.open("/flipbook/Chinese-Menu.html", "_blank");
+        }}
+      >
         Chinese Restaurant Menu
       </MenuItem>
       <MenuItem
