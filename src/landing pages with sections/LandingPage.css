@@ -1,0 +1,176 @@
+/* LandingPage.css */
+.landing-page {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("https://stellamakadi.com/images/landing/slider2.jpg")
+    no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+/* Features Section */
+.features-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.features-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features-section li {
+  font-size: 1.2rem;
+  padding: 10px 0;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.testimonials-section blockquote {
+  font-style: italic;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Gallery Section */
+.gallery-section {
+  padding: 50px 20px;
+}
+
+.gallery-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gallery-section img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Optional: if you want rounded corners */
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-form-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.contact-form-section form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form-section input,
+.contact-form-section textarea,
+.contact-form-section button {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.contact-form-section button {
+  background-color: #0066ff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.contact-form-section button:hover {
+  background-color: #0056e0; /* Slightly darker on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .book-now-btn,
+  .features-section h2,
+  .testimonials-section h2,
+  .gallery-section h2,
+  .contact-form-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-form-section input,
+  .contact-form-section textarea,
+  .contact-form-section button {
+    padding: 10px;
+  }
+
+  /* Adjust the padding in the hero section for mobile */
+  .hero-section {
+    padding: 50px 10px;
+  }
+
+  /* Adjust other sections' paddings for mobile */
+  .features-section,
+  .testimonials-section,
+  .gallery-section,
+  .contact-form-section {
+    padding: 30px 10px;
+  }
+
+  /* Adjust font sizes for other sections if necessary */
+  .features-section li,
+  .testimonials-section blockquote,
+  .contact-form-section form {
+    font-size: 1rem;
+  }
+
+  /* Adjust image sizes in the gallery for mobile */
+  .gallery-section img {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,93 @@
+/* General Styling */
+.about-page {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  /* padding: 20px; */
+}
+
+h1,
+h2 {
+  color: #0056b3; /* A color that matches the hotel's branding */
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.hero-section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+}
+
+/* About Section */
+.about-section {
+  padding: 20px;
+}
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .testimonials blockquote {
+    font-size: 0.9rem;
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .testimonials blockquote::before,
+  .testimonials blockquote::after {
+    font-size: 3rem; /* Smaller quotes on smaller screens */
+    top: -30px; /* Adjust position for smaller quotes */
+    bottom: -30px; /* Adjust position for smaller quotes */
+  }
+}
+
+/* Gallery Section */
+.gallery-section {
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .testimonials blockquote {
+    font-size: 0.9rem;
+  }
+}
