@@ -6,11 +6,11 @@ const AboutPage = () => {
     <div className="about-page">
       <section className="hero-section">
         {/* Example with dimensions and text for the hero image */}
-        <img
+        {/* <img
           src="https://stellamakadi.com/images/landing/slider2.jpg"
           alt="Stella Makadi Hotel"
           className="hero-image"
-        />
+        /> */}
         <h1>Welcome to Stella Makadi</h1>
       </section>
 

@@ -99,7 +99,7 @@ const Header = () => {
               flexGrow: 1,
               display: "flex",
               justifyContent: "space-between",
-              color: "black",
+              color: "inherit",
               fontWeight: "bolder",
             }}
           >
