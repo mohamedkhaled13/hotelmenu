@@ -15,7 +15,10 @@ class ImageFlipBook extends React.Component {
           minHeight={100}
           maxHeight={700}
           size="stretch"
-          mobileScrollSupport={true}
+          mobileScrollSupport={false}
+          showCover={true}
+          maxShadowOpacity={0.5}
+          style={{ display: "flex", justifyContent: "center", margin: "auto" }}
         >
           {imagePaths.map((path, index) => (
             <div key={index} className="demoPage">
