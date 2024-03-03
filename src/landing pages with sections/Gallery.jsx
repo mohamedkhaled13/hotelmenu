@@ -1,5 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
+import image1 from "../Images/slider1.jpg"; // Adjust the path as needed
+import image2 from "../Images/slider2.jpg"; // Adjust the path as needed
+import image3 from "../Images/slider3.jpg"; // Adjust the path as needed
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -20,22 +23,13 @@ const Gallery = () => {
       <h2>Gallery</h2>
       <Slider {...settings}>
         <div>
-          <img
-            src="https://stellamakadi.com/images/landing/slider1.jpg"
-            alt="Gallery Item 1"
-          />
+          <img src={image1} alt="Gallery Item 1" />
         </div>
         <div>
-          <img
-            src="https://stellamakadi.com/images/landing/slider2.jpg"
-            alt="Gallery Item 2"
-          />
+          <img src={image2} alt="Gallery Item 2" />
         </div>
         <div>
-          <img
-            src="	https://stellamakadi.com/images/landing/slider3.jpg"
-            alt="Gallery Item 3"
-          />
+          <img src={image3} alt="Gallery Item 3" />
         </div>
         {/* Add more images as needed */}
       </Slider>

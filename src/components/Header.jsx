@@ -68,7 +68,7 @@ const Header = () => {
   return (
     <AppBar
       position="absolute"
-      sx={{ backgroundColor: "transparent", boxShadow: "none" }}
+      sx={{ backgroundColor: "#70707040", boxShadow: "none" }}
     >
       <Toolbar>
         {isMobile && (
@@ -105,7 +105,7 @@ const Header = () => {
           >
             <Link to="/">
               <img
-                src="/Logo.png"
+                src="/logo-makadi-white.png"
                 alt="Hotel & Restaurant Logo"
                 className="logo"
               />

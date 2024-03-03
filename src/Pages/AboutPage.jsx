@@ -1,16 +1,14 @@
 import React from "react";
+import beachImage from "../Images/beach-g5.jpg"; // Adjust the path as needed
+import poolImage from "../Images/Hotel-Stella-Beach.jpg"; // Adjust the path as needed
+import restaurantImage from "../Images/hurghada-stella-makadi-and-spa-hotel-image-29.jpeg"; // Adjust the path as needed
+
 import "./AboutPage.css"; // Assume you have a CSS file for styling
 
 const AboutPage = () => {
   return (
     <div className="about-page">
       <section className="hero-section">
-        {/* Example with dimensions and text for the hero image */}
-        {/* <img
-          src="https://stellamakadi.com/images/landing/slider2.jpg"
-          alt="Stella Makadi Hotel"
-          className="hero-image"
-        /> */}
         <h1>Welcome to Stella Makadi</h1>
       </section>
 
@@ -57,18 +55,9 @@ const AboutPage = () => {
         <h2>Explore Stella Makadi</h2>
         <div className="gallery">
           {/* Placeholder images with dimensions and descriptive text */}
-          <img
-            src="https://stellamakadi.com/images/Landing/beach-g5.jpg"
-            alt="Luxury Room"
-          />
-          <img
-            src="https://stellamakadi.com/images/landing/Hotel-Stella-Beach.jpg"
-            alt="Swimming Pool"
-          />
-          <img
-            src="https://stelladispa.hotelshurghada.com/data/Images/OriginalPhoto/12772/1277202/1277202895/hurghada-stella-makadi-and-spa-hotel-image-29.JPEG"
-            alt="Hotel Restaurant"
-          />
+          <img src={beachImage} alt="Luxury Room" />
+          <img src={poolImage} alt="Swimming Pool" />
+          <img src={restaurantImage} alt="Hotel Restaurant" />
           {/* Add more placeholder images as needed with descriptive text */}
         </div>
       </section>
