@@ -117,7 +117,7 @@ const Header = () => {
           <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
             <Link to="/">
               <img
-                src="/Logo.png"
+                src="/logo-makadi-white.png"
                 alt="Hotel & Restaurant Logo"
                 className="logo"
               />
