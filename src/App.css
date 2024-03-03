@@ -6,16 +6,17 @@
 }
 .App-header {
   width: 100%;
-  position: absolute;
+  position: fixed; /* or 'absolute', depending on your layout */
   top: 0;
-  z-index: 1000;
+  z-index: 100; /* Ensure the header is above other content */
 }
 
-/* Add some top padding to the main content area to avoid being hidden behind the fixed header */
 .App-content {
-  padding-top: 30px; /* Adjust based on your header's height */
-  /* display: flex; */
-  justify-content: center; /* Center the flipbook horizontally */
+  padding-top: 64px; /* Adjust based on your header's height */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 .map {
   max-width: 1000px; /* Maximum width of the flipbook container */
