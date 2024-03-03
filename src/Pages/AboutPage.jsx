@@ -2,7 +2,6 @@ import React from "react";
 import beachImage from "../Images/beach-g5.jpg"; // Adjust the path as needed
 import poolImage from "../Images/Hotel-Stella-Beach.jpg"; // Adjust the path as needed
 import restaurantImage from "../Images/hurghada-stella-makadi-and-spa-hotel-image-29.jpeg"; // Adjust the path as needed
-
 import "./AboutPage.css"; // Assume you have a CSS file for styling
 
 const AboutPage = () => {

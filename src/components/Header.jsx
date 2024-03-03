@@ -31,44 +31,39 @@ const Header = () => {
       <MenuItem onClick={handleMenuClose} component={Link} to="/Map">
         Hotel Map
       </MenuItem>
-      <MenuItem onClick={handleMenuClose} component={Link} to="/TV_Channels">
+      <MenuItem
+        onClick={handleMenuClose}
+        component={Link}
+        to="/TV-Channels-List"
+      >
         TV Channel List
       </MenuItem>
-      <MenuItem
-        onClick={(e) => {
-          e.preventDefault();
-          handleMenuClose();
-          window.open("/flipbook/Chinese-Menu.html", "_blank");
-        }}
-      >
+      <MenuItem onClick={handleMenuClose} component={Link} to="/chinese-menu">
         Chinese Restaurant Menu
       </MenuItem>
-      <MenuItem
-        onClick={(e) => {
-          e.preventDefault();
-          handleMenuClose();
-          window.open("/flipbook/lobby-bar-menu.html", "_blank");
-        }}
-      >
+      <MenuItem onClick={handleMenuClose} component={Link} to="/lobby-bar-menu">
         Lobby Bar Menu
       </MenuItem>
       <MenuItem
         onClick={handleMenuClose}
         component={Link}
-        to="/Room_Service_Menu"
+        to="/room-service-menu"
       >
         Room Service Menu
-      </MenuItem>
-      <MenuItem onClick={handleMenuClose} component={Link} to="/About">
-        About Us
       </MenuItem>
     </>
   );
 
   return (
     <AppBar
+      className="header"
       position="absolute"
-      sx={{ backgroundColor: "#70707040", boxShadow: "none" }}
+      sx={{
+        boxShadow: "none",
+        backgroundImage: "url('/sunset-ocean-header.webp')", // Corrected syntax here
+        backgroundSize: "cover", // Ensure the image covers the whole AppBar
+        backgroundPosition: "center", // Center the background image
+      }}
     >
       <Toolbar>
         {isMobile && (
