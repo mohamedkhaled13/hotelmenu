@@ -8,6 +8,7 @@ import ChineseMenu from "./Pages/ChineseMenu"; // Import your ChineseMenu compon
 import LobbyBarMenu from "./Pages/LobbyBarMenu.jsx"; // Import your LobbyBarMenu component
 import RoomServiceMenu from "./Pages/RoomServiceMenu"; // Import your RoomServiceMenu component
 import TVChannelsList from "./Pages/TVChannelsList"; // Import your TVChannelsList component
+import HotelMap from "./Pages/HotelMap"; // Import your HotelMap component
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/lobby-bar-menu" element={<LobbyBarMenu />} />
             <Route path="/room-service-menu" element={<RoomServiceMenu />} />
             <Route path="/TV-Channels-List" element={<TVChannelsList />} />
+            <Route path="/Hotel-Map" element={<HotelMap />} />
             {/* Define other routes as needed */}
           </Routes>
         </div>

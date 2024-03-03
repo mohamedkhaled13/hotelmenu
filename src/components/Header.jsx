@@ -28,9 +28,10 @@ const Header = () => {
 
   const renderMenuItems = () => (
     <>
-      <MenuItem onClick={handleMenuClose} component={Link} to="/Map">
+      <MenuItem onClick={handleMenuClose} component={Link} to="/Hotel-Map">
         Hotel Map
       </MenuItem>
+
       <MenuItem
         onClick={handleMenuClose}
         component={Link}

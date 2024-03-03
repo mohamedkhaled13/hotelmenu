@@ -21,3 +21,10 @@
   min-height: 100vh; /* Ensure it takes at least the full height of the viewport */
   width: 100%; /* Use the full width */
 }
+.map {
+  max-width: 1000px; /* Maximum width of the flipbook container */
+  width: 100%; /* Make the container take up 100% of its parent's width */
+  margin: auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding around the flipbook for spacing */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
