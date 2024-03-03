@@ -28,24 +28,41 @@ const Header = () => {
 
   const renderMenuItems = () => (
     <>
-      <MenuItem onClick={handleMenuClose} component={Link} to="/Hotel-Map">
+      <MenuItem
+        sx={{ fontWeight: "bold", fontFamily: "monospace" }}
+        onClick={handleMenuClose}
+        component={Link}
+        to="/Hotel-Map"
+      >
         Hotel Map
       </MenuItem>
 
       <MenuItem
+        sx={{ fontWeight: "bold", fontFamily: "monospace" }}
         onClick={handleMenuClose}
         component={Link}
         to="/TV-Channels-List"
       >
         TV Channel List
       </MenuItem>
-      <MenuItem onClick={handleMenuClose} component={Link} to="/chinese-menu">
+      <MenuItem
+        sx={{ fontWeight: "bold", fontFamily: "monospace" }}
+        onClick={handleMenuClose}
+        component={Link}
+        to="/chinese-menu"
+      >
         Chinese Restaurant Menu
       </MenuItem>
-      <MenuItem onClick={handleMenuClose} component={Link} to="/lobby-bar-menu">
+      <MenuItem
+        sx={{ fontWeight: "bold", fontFamily: "monospace" }}
+        onClick={handleMenuClose}
+        component={Link}
+        to="/lobby-bar-menu"
+      >
         Lobby Bar Menu
       </MenuItem>
       <MenuItem
+        sx={{ fontWeight: "bold", fontFamily: "monospace" }}
         onClick={handleMenuClose}
         component={Link}
         to="/room-service-menu"
@@ -58,11 +75,12 @@ const Header = () => {
   return (
     <AppBar
       className="header"
-      position="absolute"
+      position="fixed"
       sx={{
         boxShadow: "none",
         borderBottom: (theme) => `1px solid ${theme.palette.divider}`,
-        bgcolor: "#05050550",
+        bgcolor: "#04ccdc50",
+        display: "block",
       }}
     >
       <Toolbar>
@@ -109,7 +127,15 @@ const Header = () => {
           </Box>
         )}
         {isMobile && (
-          <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: "flex",
+              justifyContent: "right",
+              color: "inherit",
+              fontWeight: "bolder",
+            }}
+          >
             <Link to="/">
               <img
                 src="/logo-makadi-white.png"

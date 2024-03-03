@@ -1,13 +1,4 @@
-.logo {
-  max-height: 5vh;
-}
-.header {
+.header-content {
   display: flex;
-  justify-content: space-between;
-  padding: 0 20px;
   height: 5vh;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
 }
