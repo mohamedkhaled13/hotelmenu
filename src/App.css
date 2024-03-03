@@ -1,27 +1,30 @@
 .flipbook-container {
   max-width: 1000px;
   width: 100%;
+  display: flex;
+  justify-content: center;
   padding: 20px 20px 0 20px;
+  margin: auto;
   box-sizing: border-box;
 }
 .App-header {
   width: 100%;
-  position: fixed; /* or 'absolute', depending on your layout */
+  position: absolute;
   top: 0;
   z-index: 100; /* Ensure the header is above other content */
 }
 
 .App-content {
   padding-top: 64px; /* Adjust based on your header's height */
-  display: flex;
-  justify-content: center;
   width: 100%;
   box-sizing: border-box;
 }
 .map {
-  max-width: 1000px; /* Maximum width of the flipbook container */
-  width: 100%; /* Make the container take up 100% of its parent's width */
-  margin: auto; /* Center the container horizontally */
-  padding: 20px; /* Add some padding around the flipbook for spacing */
-  box-sizing: border-box; /* Include padding in the element's total width and height */
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 0 20px;
+  margin: auto;
+  box-sizing: border-box;
 }

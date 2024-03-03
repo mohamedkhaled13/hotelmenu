@@ -61,9 +61,8 @@ const Header = () => {
       position="absolute"
       sx={{
         boxShadow: "none",
-        backgroundImage: "url('/sunset-ocean-header.webp')", // Corrected syntax here
-        backgroundSize: "cover", // Ensure the image covers the whole AppBar
-        backgroundPosition: "center", // Center the background image
+        borderBottom: (theme) => `1px solid ${theme.palette.divider}`,
+        bgcolor: "#05050550",
       }}
     >
       <Toolbar>
