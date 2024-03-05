@@ -1,0 +1,34 @@
+[
+  {
+    "category": "News and Weather",
+    "channels": [
+      { "number": 115, "name": "ABC News Live" },
+      { "number": 116, "name": "NBC News Now" },
+      { "number": 120, "name": "Fox News Live" }
+    ]
+  },
+  {
+    "category": "Sports",
+    "channels": [
+      { "number": 210, "name": "The Rich Eisen Show" },
+      { "number": 213, "name": "MLB" },
+      { "number": 216, "name": "NHL" }
+    ]
+  },
+  {
+    "category": "TV and Movies",
+    "channels": [
+      { "number": 255, "name": "Marathons on Demand" },
+      { "number": 275, "name": "Roku Channel Movies and TV" },
+      { "number": 279, "name": "Are We There Yet? Channel" }
+    ]
+  },
+  {
+    "category": "Kids and Children",
+    "channels": [
+      { "number": 401, "name": "Like Nastya" },
+      { "number": 403, "name": "Ryan and Friends" },
+      { "number": 404, "name": "Lego" }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+/* Set the body's background color and font */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main container for the channel categories */
+.channels-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between columns */
+  justify-content: center; /* Center the columns on the page */
+}
+
+/* Style for each category */
+.category {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: calc(50% - 20px); /* Minus gap size to fit two columns */
+}
+
+/* Title for each category */
+.category-title {
+  background-color: #800080; /* Purple background */
+  color: #ffffff; /* White text */
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Style for the list of channels within a category */
+.channel-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for each channel item */
+.channel-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee; /* Light grey border for each item */
+  padding: 10px 20px;
+  transition: background-color 0.2s;
+}
+
+/* Hover effect for channel items */
+.channel-item:hover {
+  background-color: #f8f8f8;
+}
+
+/* Channel number style */
+.channel-number {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333333; /* Dark text for readability */
+  width: 60px; /* Fixed width for alignment */
+}
+
+/* Channel name style */
+.channel-name {
+  flex-grow: 1;
+  color: #333333; /* Dark text for readability */
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+  .category {
+    width: 100%; /* Full width on small screens */
+  }
+}
