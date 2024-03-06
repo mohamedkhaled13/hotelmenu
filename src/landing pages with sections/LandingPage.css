@@ -18,7 +18,7 @@
 }
 
 .hero-section h1 {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   /* margin-bottom: 20px; */
   color: #fff;
 }
@@ -30,7 +30,7 @@
 }
 /* Testimonials Section */
 .testimonials-section {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   padding: 50px 20px;
   text-align: center;
 }
@@ -153,14 +153,6 @@
   /* Adjust the padding in the hero section for mobile */
   .hero-section {
     padding: 50px 10px;
-  }
-
-  /* Adjust other sections' paddings for mobile */
-  .features-section,
-  .testimonials-section,
-  .gallery-section,
-  .contact-form-section {
-    padding: 30px 10px;
   }
 
   /* Adjust font sizes for other sections if necessary */

@@ -1,8 +1,9 @@
 import React from "react";
-import beachImage from "../Images/beach-g5.jpg"; // Adjust the path as needed
-import poolImage from "../Images/Hotel-Stella-Beach.jpg"; // Adjust the path as needed
-import restaurantImage from "../Images/hurghada-stella-makadi-and-spa-hotel-image-29.jpeg"; // Adjust the path as needed
+// import beachImage from "../Images/beach-g5.jpg"; // Adjust the path as needed
+// import poolImage from "../Images/Hotel-Stella-Beach.jpg"; // Adjust the path as needed
+// import restaurantImage from "../Images/hurghada-stella-makadi-and-spa-hotel-image-29.jpeg"; // Adjust the path as needed
 import "./AboutPage.css"; // Assume you have a CSS file for styling
+import Gallery from "../landing pages with sections/Gallery";
 
 const AboutPage = () => {
   return (
@@ -41,6 +42,7 @@ const AboutPage = () => {
           expectations. Discover the epitome of elegance and hospitality at{" "}
           <strong>Stella Makadi</strong>.
         </p>
+        <Gallery />
       </section>
 
       {/* <section className="testimonial-section">
@@ -58,17 +60,15 @@ const AboutPage = () => {
           </blockquote>
         </div>
       </section> */}
-
+      {/* 
       <section className="gallery-section">
         <h2>Explore Stella Makadi</h2>
         <div className="gallery">
-          {/* Placeholder images with dimensions and descriptive text */}
           <img src={beachImage} alt="Luxury Room" />
           <img src={poolImage} alt="Swimming Pool" />
           <img src={restaurantImage} alt="Hotel Restaurant" />
-          {/* Add more placeholder images as needed with descriptive text */}
         </div>
-      </section>
+      </section> */}
 
       {/* Include more sections as needed */}
     </div>

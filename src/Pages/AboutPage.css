@@ -34,6 +34,10 @@ h2 {
 /* About Section */
 .about-section {
   padding: 20px;
+  text-align: center;
+}
+.about-section h2 {
+  color: #333;
 }
 /* Responsive Design Adjustments */
 @media (max-width: 768px) {
@@ -52,11 +56,6 @@ h2 {
     top: -30px; /* Adjust position for smaller quotes */
     bottom: -30px; /* Adjust position for smaller quotes */
   }
-}
-
-/* Gallery Section */
-.gallery-section {
-  padding: 20px;
 }
 
 .gallery {

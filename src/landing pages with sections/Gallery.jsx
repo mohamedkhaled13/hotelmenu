@@ -20,7 +20,6 @@ const Gallery = () => {
 
   return (
     <section className="gallery-section">
-      <h2>Gallery</h2>
       <Slider {...settings}>
         <div>
           <img src={image1} alt="Gallery Item 1" />

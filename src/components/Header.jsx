@@ -30,11 +30,12 @@ const Header = () => {
             <img
               src="/logo-makadi-white.png"
               alt="Hotel & Restaurant Logo"
-              style={{ objectFit: "contain", height: "5vh" }}
+              style={{ objectFit: "contain", height: "fit" }}
+              className="logoheader"
             />
-            <h3 className="logo">
+            {/* <h3 className="logo">
               Stella<span> Makadi</span>
-            </h3>
+            </h3> */}
           </div>
 
           <div className="hamburger-menu-container" onClick={toggleMenu}>
