@@ -11,16 +11,12 @@ h2 {
   color: #0056b3; /* A color that matches the hotel's branding */
 }
 
-p {
-  margin-bottom: 20px;
-}
-
 /* Hero Section */
-.hero-section {
+/* .hero-section {
   position: relative;
   text-align: center;
   color: white;
-}
+} */
 
 .hero-image {
   width: 100%;
@@ -28,13 +24,12 @@ p {
   opacity: 0.8;
 }
 
-.hero-section h1 {
+/* .hero-section h1 {
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.5rem;
-}
+} */
 
 /* About Section */
 .about-section {

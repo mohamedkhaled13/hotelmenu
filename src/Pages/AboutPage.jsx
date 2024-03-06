@@ -8,7 +8,16 @@ const AboutPage = () => {
   return (
     <div className="about-page">
       <section className="hero-section">
-        <h1>Welcome to Stella Makadi</h1>
+        <h1
+          style={{
+            textAlign: "center",
+            fontFamily: "Arial",
+            fontWeight: "bold",
+            fontSize: "2rem",
+          }}
+        >
+          Welcome to Stella Makadi
+        </h1>
       </section>
 
       <section className="about-section">
